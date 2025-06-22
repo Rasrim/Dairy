@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Diary</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="container">
+    <h1>My Personal Diary</h1>
+    <form action="DiaryServlet" method="post">
+        <label for="entryDate">Date:</label>
+        <input type="date" name="entryDate" required><br><br>
+
+        <label for="entryText">Write your diary entry:</label><br>
+        <textarea name="entryText" rows="10" cols="50" required></textarea><br><br>
+
+        <input type="submit" value="Save Entry">
+    </form>
+    <br>
+    <a href="view.jsp">View Entries</a>
+</div>
+</body>
+</html>
