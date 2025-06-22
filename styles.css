@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+}
+.container {
+    width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 10px;
+}
+textarea {
+    width: 100%;
+    padding: 10px;
+}
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
